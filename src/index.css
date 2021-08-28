@@ -1,0 +1,7 @@
+.app__container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.app__container-title {
+    padding-top: 40px;
+}
