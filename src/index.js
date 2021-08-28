@@ -23,6 +23,7 @@ new Vue({
             this.todos.splice(this.selectedIndex, 1, this.todo)
         },
         removeTodo(index) {
+            // deletes by finding the id / index of the todo
             this.todos.splice(index, 1)
         }
 }
